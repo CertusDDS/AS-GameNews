@@ -1,8 +1,6 @@
-/*esta es parte de la cabeza de la web*/
 .cabeza_web{
     background: skyblue;
 }
-/*esta es la parte de menú*/
 .menu li a{
     text-decoration: none;
     color: white;
