@@ -1,0 +1,67 @@
+
+
+.cabezera_ps5 {
+    background:linear-gradient(to left, #6200ff,#4956ff, #f264ff, #4a6bff, rgb(96, 10, 255))
+}
+
+.cabezera_ps5 {
+    border-radius: 13px;
+}
+
+.menu_ps5 {
+    background: rgb(252, 252, 252);
+}
+
+.menu_ps5 {
+    border-radius: 20px;
+}
+
+button {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgb(89, 0, 255);
+    color: whitesmoke
+}
+
+button:hover {
+    background: linear-gradient(to left, rgb(85, 7, 211), rgb(255, 79, 255));
+}
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img1 {
+    border: rgb(0, 0, 0) 6px solid;
+    border-radius: 15px;
+}
+
+.youtubeps5 {
+    border: rgb(0, 0, 0)5px solid;
+    border-radius: 15px;
+}
+
+.info_admin {
+    background-color: rgba(17, 159, 161, 0.164);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.parrafo1 {
+    background-color: rgba(169, 169, 169, 0.103);
+    border-radius: 15px;
+}
+
+.parrafo2 {
+    background-color: rgba(169, 169, 169, 0.103);
+    border-radius: 15px;
+}
+
+.parrafo3 {
+    background-color: rgba(169, 169, 169, 0.103);
+    border-radius: 15px;
+}
