@@ -1,6 +1,8 @@
+/*esta es parte de la cabeza de la wbe*/
 .cabeza_web{
     background: skyblue;
 }
+/*esta es la parte de menu*/
 .menu li a{
     text-decoration: none;
     color: white;
