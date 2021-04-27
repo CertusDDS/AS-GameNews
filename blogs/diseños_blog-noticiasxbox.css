@@ -1,0 +1,44 @@
+
+/*cabeza de la pagina web*/
+.cabeza{
+    background: linear-gradient( #ff80807c 5%, #4451c9 100%);
+}
+/*barra de registro*/
+.barra_registro{
+    position: absolute;
+    width: 1550px;
+    top: 40px;
+}
+/*barra de menu*/
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    border-radius: 10px;
+    background: #1E1550;
+}
+.menu li a:hover{
+    border-radius: 10px;
+    background: crimson;
+}
+/*contenido de la noticia*/
+.contenido{
+    float: left;
+    background: rgb(235, 235, 235);
+    width: 60%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contenido img{
+    border-radius: 10px;
+}
+.texto_contenido{
+    text-align: center;
+}
