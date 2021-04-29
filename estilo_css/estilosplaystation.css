@@ -13,16 +13,24 @@
 }
 
 .menu button:hover {
-         background: linear-gradient(#ff80807c 5%, #4451c9 100%);
+         background: crimson;
 }
 
 .noticia_titulo {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background: rgb(233, 231, 231);
+    background: rgb(235, 235, 235);
     border-radius: 12px;
     display: inline-block;
     text-align: center;
     width: 1000px;
+    position: absolute;
+    top: 250px;
+}
+.contenido{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    width: 90%;
 }
 
 .blogn1 {
@@ -70,4 +78,25 @@
 .lo_masvisto img {
     border: 5px rgb(36, 36, 36) solid;
     border-radius: 10px;
+}
+#text_1{
+    text-decoration: none;
+    color: black;
+}
+#text_2{
+    text-decoration: none;
+    color: black;
+}
+#text_3{
+    text-decoration: none;
+    color: black;
+}
+#text_1:hover{
+    color: rgb(2, 71, 175);
+}
+#text_2:hover{
+    color: rgb(9, 37, 197);
+}
+#text_3:hover{
+    color: rgb(9, 21, 187);
 }
