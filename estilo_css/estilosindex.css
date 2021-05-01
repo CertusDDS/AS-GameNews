@@ -1,35 +1,31 @@
-/*esta es parte de la cabeza de la wbe*/
-body{
-    background: rgb(255, 255, 255);
-}
-/*barra de registro y iniciar session*/
 .barra_registro{
     position: absolute;
-    width: 1550px;
+    width: 1300px;
     top: 40px;
 }
-/*esta es parte de la cabeza de la web*/
-.cabeza_web{    
-	background: linear-gradient( #ff80807c 5%, #4451c9 100%);
+.cabeza{
+    border: 2px rgb(42, 42, 94) solid;
+    border-radius: 15px;
+    background: linear-gradient( #ff80807c 5%, #4451c9 100%);
 }
-/*esta es la parte de menu*/
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
 .menu li{
     display: inline-block;
     text-align: center;
 }
 .menu li a{
-    text-decoration: none;
-    color: white;
-    padding: 20px;
-    display: block;
-}
-.menu li a{
+    border: 2px rgb(42, 0, 61) solid;
     border-radius: 10px;
     background: #1E1550;
 }
 .menu li a:hover{
     border-radius: 10px;
-    background: crimson;
+    background: linear-gradient(#ff80807c 5%, #4451c9 100%)    
 }
 /*la imagen de centro*/
 .noticia_centro{
@@ -45,11 +41,12 @@ body{
     border-radius: 20px;
 }
 .text_centro{
-    text-align: center;
+    text-align:center;
     position: absolute;
     top: 420px;
     padding-left: 400px;
     color:white;
+    text-shadow:2px 2px 2px black;
 }
 /*noticia principal 1*/
 .noticia_1{
@@ -78,7 +75,7 @@ body{
     border-radius: 5px;
 }
 .text_noticia_1 a:hover{
-    background: yellowgreen;
+    background: rgba(158, 7, 189, 0.493);
 }
 /*noticia principal 2*/
 .noticia_2{
@@ -105,7 +102,7 @@ body{
     color: white;
 }
 .text_noticia_2 a:hover{
-    background: yellowgreen;
+    background: rgba(158, 7, 189, 0.493);
 }
 /*noticia principal 3*/
 .noticia_3{
@@ -132,7 +129,7 @@ body{
     color: white;
 }
 .text_noticia_3 a:hover{
-    background: yellowgreen;
+    background: rgba(158, 7, 189, 0.493);
 }
 /*noticicia principal 4*/
 .noticia_4{
@@ -159,7 +156,7 @@ body{
     color: white;
 }
 .text_noticia_4 a:hover{
-    background: yellowgreen;
+    background: rgba(158, 7, 189, 0.493);
 }
 /*pie de la pagina web*/
 .pie_web{
