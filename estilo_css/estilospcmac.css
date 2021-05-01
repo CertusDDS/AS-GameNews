@@ -1,0 +1,29 @@
+.barra_registro{
+    position: absolute;
+    width: 1300px;
+    top: 40px;
+}
+.cabeza{
+    border:2px  rgb(42, 42, 94) solid;
+    border-radius: 15px;
+    background: linear-gradient( #ff80807c 5%, #4451c9 100%);
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    border: 2px rgb(42, 0, 61) solid;
+    border-radius: 10px;
+    background: #1E1550;
+}
+.menu li a:hover{
+    border-radius: 10px;
+    background: linear-gradient(#ff80807c 5%, #4451c9 100%)    
+}
