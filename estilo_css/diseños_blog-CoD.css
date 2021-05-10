@@ -1,11 +1,13 @@
 /*cabeza de la pagina web*/
 .cabeza{
+    border:2px  rgb(42, 42, 94) solid;
+    border-radius: 15px;
     background: linear-gradient( #ff80807c 5%, #4451c9 100%);
 }
 /*barra de registro*/
 .barra_registro{
     position: absolute;
-    width: 1550px;
+    width: 1300px;
     top: 40px;
 }
 .barra_registro a{
@@ -18,6 +20,10 @@
     color: white;
     padding: 20px;
     display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
 }
 .menu li a{
     border: 2px rgb(42, 0, 61) solid;
