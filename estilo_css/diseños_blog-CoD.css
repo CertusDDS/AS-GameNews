@@ -1,4 +1,3 @@
-
 /*cabeza de la pagina web*/
 .cabeza{
     background: linear-gradient( #ff80807c 5%, #4451c9 100%);
@@ -20,10 +19,6 @@
     padding: 20px;
     display: block;
 }
-.menu li{
-    display: inline-block;
-    text-align: center;
-}
 .menu li a{
     border: 2px rgb(42, 0, 61) solid;
     border-radius: 10px;
@@ -31,7 +26,7 @@
 }
 .menu li a:hover{
     border-radius: 10px;
-    background: linear-gradient(#ff80807c 5%, #4451c9 100%)  
+    background: linear-gradient(#ff80807c 5%, #4451c9 100%)
 }
 /*contenido de la noticia*/
 .contenido{
