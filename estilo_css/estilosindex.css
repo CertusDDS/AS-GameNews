@@ -1,3 +1,6 @@
+*{
+    font-family: Arial;
+}
 .barra_registro{
     position: absolute;
     width: 1300px;

@@ -1,3 +1,6 @@
+*{
+    font-family: Arial;
+}
 /*barra de registro y iniciar session*/
 .barra_registro{
     position: absolute;

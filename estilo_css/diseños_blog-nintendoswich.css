@@ -1,4 +1,6 @@
-
+*{
+    font-family: Arial;
+}
 /*cabeza de la pagina web*/
 .cabeza{
     background: linear-gradient( #ff80807c 5%, #4451c9 100%);

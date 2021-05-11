@@ -1,4 +1,6 @@
-
+*{
+    font-family: Arial;
+}
 /*cabeza de la pagina web*/
 .cabeza{
     border: 2px #344f5c solid;
