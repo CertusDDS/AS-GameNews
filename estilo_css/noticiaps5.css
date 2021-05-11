@@ -7,9 +7,9 @@
 
 /*la cabeza de web*/
 .cabeza{
-    border: 2px rgb(42, 42, 94) solid;
+    border: 2px #344f5c solid;
     border-radius: 15px;
-    background: linear-gradient( #ff80807c 5%, #4451c9 100%);
+    background: #3E5F6E;
 }
 
 /*la barra de menu*/
@@ -24,13 +24,12 @@
     text-align: center;
 }
 .menu li a{
-    border: 2px rgb(42, 0, 61) solid;
     border-radius: 10px;
-    background: #1E1550;
+    background: #499195;
 }
 .menu li a:hover{
     border-radius: 10px;
-    background: linear-gradient(#ff80807c 5%, #4451c9 100%)    
+    background: #7FAAFF;    
 }
 /*contenico de la noticia*/
 .contenido{
