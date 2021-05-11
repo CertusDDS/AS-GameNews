@@ -6,13 +6,15 @@
 }
 /*la cabeza de web*/
 .cabeza{
-    background: linear-gradient( #ff80807c 5%, #4451c9 100%);
+    border: 2px #344f5c solid;
+    border-radius: 15px;
+    background: #3E5F6E;
 }
 /*la barra de menu*/
 .menu li a{
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 15px;
     display: block;
 }
 .menu li{
@@ -21,11 +23,11 @@
 }
 .menu li a{
     border-radius: 10px;
-    background: #1E1550;
+    background: #499195;
 }
 .menu li a:hover{
     border-radius: 10px;
-    background: crimson;
+    background: #7FAAFF    
 }
 /*contenico de la noticia*/
 .contenido{
