@@ -62,6 +62,7 @@
 }
 .noticia_1 img{
     border-radius: 30px;
+    width: 68%;
 }
 .text_noticia_1{
     background: #c4c4c4;
@@ -86,15 +87,16 @@
 /*noticia principal 2*/
 .noticia_2{
     position: absolute;
-    right: 50px;
+    right: -70px;
     top: 900px;
 }
 .noticia_2 img{
     border-radius: 30px;
+    width: 68%;
 }
 .text_noticia_2{
     background: #c4c4c4;
-    width: 90%;
+    width: 67%;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
@@ -113,15 +115,16 @@
 /*noticia principal 3*/
 .noticia_3{
     position: absolute;
-    right: -60px;
+    right: -460px;
     top: 1365px;
 }
 .noticia_3 img{
     border-radius: 30px;
+    width: 40%;
 }
 .text_noticia_3{
     background: #c4c4c4;
-    width: 70%;
+    width: 40%;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
@@ -145,10 +148,11 @@
 }
 .noticia_4 img{
     border-radius: 30px;
+    width: 67%;
 }
 .text_noticia_4{
     background: #c4c4c4;
-    width: 79%;
+    width: 65%;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
