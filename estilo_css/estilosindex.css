@@ -1,59 +1,61 @@
-*{
-    font-family: Arial;
-    max-width: 1600px;
+body{
+    background-color: rgb(41, 39, 39);
+    margin: 0;
+    padding: 0;
 }
-.barra_registro{
-    position: absolute;
-    width: 1300px;
-    top: 40px;
-}
-.barra_registro a{
-    text-decoration: none;
-    color: black;
-}
-.cabeza{
-    border: 2px #344f5c solid;
-    border-radius: 15px;
-    background: #3E5F6E;
-}
-.menu li a{
-    text-decoration: none;
-    color: white;
+.barra_navegacion{
+    background-color: rgba(10, 10, 10, 0.753);
+    text-align: center; 
     padding: 15px;
-    display: block;
+    margin: 0%;
+    position: relative;
+    height: 50px;
+    font-family: 'Arial', 'Helvetica', 'sans-serif';
 }
-.menu li{
-    display: inline-block;
-    text-align: center;
+.barra_navegacion ul li a:hover{
+    background-color: rgb(233, 233, 233);
+    color: black;
+    width: 20%;
+    padding: 10px;
 }
-.menu li a{
-    border-radius: 10px;
-    background: #499195;
+.barra_navegacion ul li {
+display: inline-block;
+float: left; 
+width: 7%;
 }
-.menu li a:hover{
-    border-radius: 10px;
-    background: #7FAAFF    
+.barra_navegacion ul li a{
+color:rgb(255, 255, 255);
+text-decoration: none;
 }
-/*la imagen de centro*/
-.noticia_centro{
-    margin: 2px auto;
-    display: flex;
-    align-items: center;
-    position: relative;    
+.inicio{
+ width: 1920px; 
+ background-image: url(../img/fondo.jpg);
+ background-size: cover;
+ height: 500px;
 }
-.noticia_centro img{
-    position: absolute;
-    left: 150px;
-    top: 20px;
-    border-radius: 20px;
+.nombre{
+font-size: 65px;
+color: white;
+font-family: 'Anton', 'sans-serif';
+margin-left: 12%;
+padding-top: 3%;
+}/**/
+.descripcion{
+color: white;
+font-size: 22px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 410px;
+margin-left: 12%;
+}/**/
+.lo_mas_visto{
+   background-color: rgba(10, 10, 10, 0.753);
+   text-align: center;
+   height: 70px;
 }
-.text_centro{
-    text-align:center;
-    position: absolute;
-    top: 420px;
-    padding-left: 400px;
-    color:white;
-    text-shadow:2px 2px 2px black;
+.lo_mas_visto p{
+    font-size: 45px;
+    font-family: 'Lobster', 'cursive';
+    color: white;
 }
 /*noticia principal 1*/
 .noticia_1{
@@ -180,4 +182,9 @@
 .pie_web p{
     position: absolute;
     left: 550px;
+}
+.fondo{
+    background-color: black;
+    width: 100%;
+    height: 400px
 }
