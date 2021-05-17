@@ -24,13 +24,32 @@ body{
     margin: 0%;
     position: relative;
     height: 50px;
-    font-family: 'Arial', 'Helvetica', 'sans-serif';
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.barra_navegacion{
+    animation-duration: 0.5s;
+    animation-name: nav;
+}
+
+@keyframes nav{
+    from{
+        transform: translate3d(0,-100%,0);
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 2;
+    }
+}
+
 .barra_navegacion ul li a:hover{
     background-color: rgb(233, 233, 233);
     color: black;
     width: 20%;
     padding: 10px;
+    transition: 0.3s;
+    border-radius: 7px;
 }
 .barra_navegacion ul li {
 display: inline-block;
@@ -46,25 +65,90 @@ text-decoration: none;
  background-size: cover;
  height: 500px;
 }
+
+.inicio{
+    animation-duration: 2s;
+    animation-name: texto;
+}
+
+@keyframes texto{
+    
+       from{
+           opacity: 0;
+       }
+       to{
+           opacity: 1;
+       }
+}
+
 .nombre{
 font-size: 65px;
 color: white;
-font-family: 'Anton', 'sans-serif';
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 margin-left: 12%;
 padding-top: 3%;
 }/**/
+
+.nombre{
+    animation-duration: 2s;
+    animation-name: texto;
+}
+
+@keyframes texto{
+    
+       from{
+           opacity: 0;
+       }
+       to{
+           opacity: 1;
+       }
+}
+
 .descripcion{
 color: white;
 font-size: 22px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 width: 410px;
 margin-left: 12%;
 }/**/
+
+.descripcion{
+    animation-duration: 2s;
+    animation-name: descripcion;
+}
+
+@keyframes descripcion{
+    
+       from{
+           opacity: 0;
+       }
+       to{
+           opacity: 1;
+       }
+}
+
+
 .lo_mas_visto{
    background-color: rgba(10, 10, 10, 0.753);
    text-align: center;
    height: 70px;
 }
+
+.lo_mas_visto{
+    animation-duration: 2s;
+    animation-name: masvisto;
+}
+
+@keyframes masvisto{
+    
+       from{
+           opacity: 0;
+       }
+       to{
+           opacity: 1;
+       }
+}
+
 .lo_mas_visto p{
     font-size: 45px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -94,6 +178,7 @@ margin-left: 12%;
     border-radius: 10px;
     text-align: center;
     padding: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
 .text_noticia_1{
@@ -107,6 +192,7 @@ margin-left: 12%;
     text-decoration: none;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
 }
 
 .text_noticia_1 a{
@@ -140,6 +226,7 @@ margin-left: 12%;
     border-radius: 10px;
     padding: 5px;
     text-align: center;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
 .text_noticia_2{
@@ -153,6 +240,7 @@ margin-left: 12%;
     text-decoration: none;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
 }
 
 .text_noticia_2 a{
@@ -186,6 +274,7 @@ margin-left: 12%;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
 .text_noticia_3{
@@ -199,6 +288,7 @@ margin-left: 12%;
     text-decoration: none;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
 }
 
 .text_noticia_3 a{
@@ -232,6 +322,7 @@ margin-left: 12%;
     text-align: center;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
 .text_noticia_4{
@@ -245,6 +336,7 @@ margin-left: 12%;
     text-decoration: none;
     border-radius: 5px;
     color: white;
+    transition: 0.3s;
 }
 
 .text_noticia_4 a{
