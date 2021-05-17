@@ -20,7 +20,6 @@ body{
 }
 .barra_navegacion ul li {
 display: inline-block;
-float: left; 
 width: 7%;
 }
 .barra_navegacion ul li a{
