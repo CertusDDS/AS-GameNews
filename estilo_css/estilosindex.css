@@ -173,7 +173,7 @@ margin-left: 12%;
 }
 
 .text_noticia_1{
-    background: #c4c4c4;
+    background: #222222;
     width: 67%;
     border-radius: 10px;
     text-align: center;
@@ -182,16 +182,17 @@ margin-left: 12%;
 }
 
 .text_noticia_1{
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .text_noticia_1 a{
-    background: coral;
+    background: rgb(0, 0, 0);
     padding: 5px;
     display: inline-block;
     text-decoration: none;
     border-radius: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
     transition: 0.3s;
 }
 
@@ -200,7 +201,7 @@ margin-left: 12%;
 }
 
 .text_noticia_1 a:hover{
-    background: rgba(158, 7, 189, 0.493);
+    background: rgba(107, 107, 107, 0.493);
 }
 /*noticia principal 2*/
 .noticia_2{
@@ -221,7 +222,7 @@ margin-left: 12%;
 }
 
 .text_noticia_2{
-    background: #c4c4c4;
+    background: #272727;
     width: 67%;
     border-radius: 10px;
     padding: 5px;
@@ -230,11 +231,12 @@ margin-left: 12%;
 }
 
 .text_noticia_2{
+    color: rgb(255, 255, 255);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .text_noticia_2 a{
-    background: coral;
+    background: rgb(0, 0, 0);
     padding: 5px;
     display: inline-block;
     text-decoration: none;
@@ -248,7 +250,7 @@ margin-left: 12%;
 }
 
 .text_noticia_2 a:hover{
-    background: rgba(158, 7, 189, 0.493);
+    background: rgba(109, 109, 109, 0.493);
 }
 /*noticia principal 3*/
 .noticia_3{
@@ -269,7 +271,7 @@ margin-left: 12%;
 }
 
 .text_noticia_3{
-    background: #c4c4c4;
+    background: #202020;
     width: 40%;
     text-align: center;
     padding: 5px;
@@ -278,11 +280,12 @@ margin-left: 12%;
 }
 
 .text_noticia_3{
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .text_noticia_3 a{
-    background: coral;
+    background: rgb(0, 0, 0);
     padding: 5px;
     display: inline-block;
     text-decoration: none;
@@ -296,7 +299,7 @@ margin-left: 12%;
 }
 
 .text_noticia_3 a:hover{
-    background: rgba(158, 7, 189, 0.493);
+    background: rgba(107, 107, 107, 0.493);
 }
 /*noticicia principal 4*/
 .noticia_4{
@@ -317,7 +320,7 @@ margin-left: 12%;
 }
 
 .text_noticia_4{
-    background: #c4c4c4;
+    background: #1d1d1d;
     width: 65%;
     text-align: center;
     padding: 5px;
@@ -326,11 +329,12 @@ margin-left: 12%;
 }
 
 .text_noticia_4{
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .text_noticia_4 a{
-    background: coral;
+    background: rgb(0, 0, 0);
     padding: 5px;
     display: inline-block;
     text-decoration: none;
@@ -340,11 +344,12 @@ margin-left: 12%;
 }
 
 .text_noticia_4 a{
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .text_noticia_4 a:hover{
-    background: rgba(158, 7, 189, 0.493);
+    background: rgba(97, 97, 97, 0.493);
 }
 /*pie de la pagina web*/
 .pie_web{
