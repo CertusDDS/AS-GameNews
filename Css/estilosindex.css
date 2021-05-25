@@ -23,6 +23,8 @@ body{
     max-width: 1720px;
     margin: auto;
 }
+
+
 .menu li a{
     text-decoration: none;
     color:white;
@@ -30,20 +32,77 @@ body{
     display:block;
     
 }
+
+.menu li a{
+    animation-duration: 2s;
+    animation-name: menuli;
+}
+
+@keyframes menuli{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.menu li a{
+    animation-duration: 2s;
+    animation-name: menu;
+}
+
+@keyframes menu{
+    
+    from{
+        transform: translate3d(0.-100%,0); 
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
 .menu li{
     display: inline-block;
     text-align: left;
 
 }
+
 .menu li a:hover{
+    animation: 0.5s;
     background: rgb(10, 10, 10);
 }
+
+.menu li a:hover{
+    border-radius: 7px;
+}
+
+
 .menu-registro{
     position: absolute;
     left: 950px;
     top: 18px;
 
 }
+
+.menu-registro{
+    animation-duration: 2s;
+    animation-name: registro;
+}
+
+@keyframes registro{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 .button1 a{
     text-decoration: none;
     color: black;
@@ -59,6 +118,23 @@ body{
     left: 1250px;
     top: 5px;
 }
+
+.usuario{
+    animation-duration: 2s;
+    animation-name: user;
+}
+
+@keyframes user{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
 .inicio{
     width: 1720px;
     background-image: url(../img/fondo.jpg);
@@ -66,6 +142,39 @@ body{
     height: 500px;
     margin-top: -60px;
    }
+
+   .inicio{
+    animation-duration: 2s;
+    animation-name: inicio;
+}
+
+@keyframes inicio{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.inicio{
+    animation-duration: 2s;
+    animation-name: inici;
+}
+
+@keyframes inici{
+    
+    from{
+        transform: translate3d(0.-100%,0); 
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
 .nombre{
    font-size: 65px;
    color: white;
@@ -87,6 +196,23 @@ body{
     margin-top: -25px;
     }
 
+
+    .lo_mas_visto{
+        animation-duration: 2s;
+        animation-name: visto;
+    }
+    
+    @keyframes visto{
+        from{
+            transform: translate3d(0.-100%,0); 
+            opacity: 0;
+        }
+        to{
+            transform: translate3d(0,0,0);
+            opacity: 1;
+        }
+    }
+
 .lo_mas_visto p{
     text-align: center;
     color:white;
@@ -103,6 +229,24 @@ div.noticiasgenerales{
     float:left;
     width: 450px;
 }
+
+div.noticiasgenerales{
+        animation-duration: 1s;
+        animation-name: noticias;
+    }
+    
+    @keyframes noticias{
+        
+        from{
+            transform: translate3d(0.-100%,0); 
+            opacity: 0;
+        }
+        to{
+            transform: translate3d(0,0,0);
+            opacity: 1;
+        }
+    }
+
 div.noticiasgenerales img{
     border-radius: 20px;
     width: 100%;
