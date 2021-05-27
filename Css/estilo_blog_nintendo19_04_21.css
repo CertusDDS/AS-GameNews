@@ -1,42 +1,72 @@
-*{
-    font-family: Arial;
-    max-width: 1600px;
-}
-/*barra de registro y iniciar session*/
-.barra_registro{
-    position: absolute;
-    width: 1550px;
-    top: 40px;
-}
-/*la cabeza de web*/
-.cabeza{
-    border: 2px #344f5c solid;
-    border-radius: 15px;
-    background: #3E5F6E;
+body{
+    font-family: Arial, Helvetica;
+    background: #161616;
 }
 /*la barra de menu*/
+.menu-registro{
+    position: absolute;
+    left: 1200px;
+    top: 40px;
+}
+.usuario{
+    position: absolute;
+    left: 1400px;
+    top: 18px;
+}
+.menu{
+    position: absolute;
+    top: 20px;
+}
 .menu li a{
     text-decoration: none;
-    color: white;
-    padding: 15px;
     display: block;
+    padding: 10px;
+    color: white;
 }
 .menu li{
+    background: transparent;
     display: inline-block;
-    text-align: center;
-}
-.menu li a{
-    border-radius: 10px;
-    background: #499195;
 }
 .menu li a:hover{
-    border-radius: 10px;
-    background: #7FAAFF    
+    animation: 0.5s;
+    background: rgb(10, 10, 10);  
 }
+.menu li a{
+    animation-duration: 2s;
+    animation-name: menuli;
+}
+
+@keyframes menuli{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.menu li a{
+    animation-duration: 2s;
+    animation-name: menu;
+}
+
+@keyframes menu{
+    
+    from{
+        transform: translate3d(0.-100%,0); 
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
 /*contenico de la noticia*/
 .contenido{
     position: absolute;
-    top: 250px;
+    top: 100px;
     float: left;
     background: rgb(235, 235, 235);
     width: 60%;
@@ -54,7 +84,7 @@
 .Lomasvisto{
     position: absolute;
     left: 1050px;
-    top: 350px;
+    top: 250px;
     float: left;
     background: rgb(235, 235, 235);
     width: 30%;
@@ -65,6 +95,7 @@
     position: absolute;
     float: left;
     left: 1050px;
+    top: 100px;
     background: rgb(177, 175, 175);
     border-radius: 10px;
     padding: 40px;
