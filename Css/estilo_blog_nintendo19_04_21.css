@@ -1,36 +1,41 @@
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    
+    }
 body{
-    font-family: Arial, Helvetica;
-    background: #161616;
-}
+        font-family: Arial, Helvetica;
+        background: #990303;
+        margin: 0;
+        margin-top: 4px;
+    }
+.contenedor{
+        width: 100%;
+        max-width: 1720px;
+        position: relative;
+        z-index: 99;
+    }
 /*la barra de menu*/
-.menu-registro{
-    position: absolute;
-    left: 1200px;
-    top: 40px;
-}
-.usuario{
-    position: absolute;
-    left: 1400px;
-    top: 18px;
-}
 .menu{
-    position: absolute;
-    top: 20px;
+    list-style: none;
+    padding: 0;
+    background: transparent;
+    width: 100%;
+    max-width: 1720px;
+    margin: auto;
 }
+
+
 .menu li a{
     text-decoration: none;
-    display: block;
-    padding: 10px;
-    color: white;
+    color:white;
+    padding: 20px;
+    display:block;
+    
 }
-.menu li{
-    background: transparent;
-    display: inline-block;
-}
-.menu li a:hover{
-    animation: 0.5s;
-    background: rgb(10, 10, 10);  
-}
+
 .menu li a{
     animation-duration: 2s;
     animation-name: menuli;
@@ -63,6 +68,94 @@ body{
     }
 }
 
+.menu li{
+    display: inline-block;
+    text-align: left;
+
+}
+.menu li a:hover{
+    background: rgb(112, 1, 1);
+    border-radius: 7px;
+}
+
+
+.menu-registro{
+    position: absolute;
+    left: 950px;
+    top: 18px;
+
+}
+
+.menu-registro{
+    animation-duration: 2s;
+    animation-name: registro;
+}
+
+@keyframes registro{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.button1 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    }
+.button2 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.usuario{
+    position:absolute;
+    left: 1250px;
+    top: 5px;
+}
+
+.usuario{
+    animation-duration: 2s;
+    animation-name: user;
+}
+
+@keyframes user{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes menuli{
+    
+    from{
+     opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes menu{
+    
+    from{
+        transform: translate3d(0.-100%,0); 
+        opacity: 0;
+    }
+    to{
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
 /*contenico de la noticia*/
 .contenido{
     position: absolute;
@@ -72,6 +165,7 @@ body{
     width: 60%;
     padding: 20px;
     border-radius: 20px;
+    margin-left: 15px;
 }
 .contenido img{
     border-radius: 10px;

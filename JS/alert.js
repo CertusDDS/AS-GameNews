@@ -1,3 +1,3 @@
 function notificacion() {
-    alert("No olvides de dejar tu comentario en nuestra pagina");
+    alert("No olvides dejar tu comentario en nuestra página.☺");
 }
