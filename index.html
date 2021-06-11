@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="../AS-GameNews/Css/estilosindex.css">
+    <link rel="stylesheet" type="text/css" href="../AS-GameNews/Formulario de contacto/estilospoup.css">
     <title>Game News</title>
 </head>
 <body onload="notificacion()">
@@ -23,7 +24,24 @@
         </div>
     </ul>
         <div class="menu-registro">
-            <button class="button1"><a href="../AS-GameNews/Formulario de contacto/form_regist.html">Registrarse</a></button>
+            <!-- Boton de registro con ventana popup -->
+            <button id="btn-abrir-popup" class="btn-abrir-popup">Registrarse</button>
+	        <div class="overlay" id="overlay">
+			     <div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3>Registro</h3>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="text" placeholder="Nombre" name="" id="name" ><span class="barra"></span>
+						<input type="email" placeholder="Correo" name="" id="email" ><span class="barra"></span>
+						<input type="password" placeholder="Contraseña" name="" id="password" ><span class="barra"></span>
+					</div>
+					<input type="submit" class="btn-submit" value="Registrarse">
+					<p class="warnings" id="warnings"></p>
+				</form>
+			     </div>
+		    </div>
+            <!-- Boton de inicio de sesión pero falta ventana popup -->
             <button class="button2"><a href="#">Iniciar Sesión</a></button>
         </div>
         <div class="usuario">
@@ -131,5 +149,6 @@
 <script src="../AS-GameNews/JS/particles.min.js"></script>
 <script src="../AS-GameNews/JS/app.js"></script>
 <script src="../AS-GameNews/JS/alert.js"></script>
+<script src="../AS-GameNews/Formulario de contacto/popup.js"></script>
 </body>
 </html>
