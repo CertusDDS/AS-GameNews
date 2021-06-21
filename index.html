@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link rel="stylesheet" type="text/css" href="../AS-GameNews/Css/estilosindex.css">
     <link rel="stylesheet" type="text/css" href="../AS-GameNews/Formulario de contacto/estilospoup.css">
+    <link rel="stylesheet" type="text/css" href="..//AS-GameNews/Formulario de contacto/estilospopup.css">
     <title>Game News</title>
 </head>
 <body onload="notificacion()">
@@ -20,9 +21,8 @@
                 <li><a href="../AS-GameNews/pagsecundarias/nintendo.html">NINTENDO</a></li>
                 <li><a href="../AS-GameNews/pagsecundarias/xbox.html">PC/MAC</a></li>
                 
-                            
-        </div>
-    </ul>
+            </div>
+        </ul>
         <div class="menu-registro">
             <!-- Boton de registro con ventana popup -->
             <button id="btn-abrir-popup" class="btn-abrir-popup">Registrarse</button>
@@ -39,11 +39,26 @@
 					<input type="submit" class="btn-submit" value="Registrarse">
 					<p class="warnings" id="warnings"></p>
 				</form>
-			     </div>
+			     
 		    </div>
-            <!-- Boton de inicio de sesión pero falta ventana popup -->
-            <button class="button2"><a href="#">Iniciar Sesión</a></button>
         </div>
+            <!-- Boton de inicio de sesión pero falta ventana popup -->
+        <button id="btn-abrir-popup1" class="btn-abrir-popup1">iniciar Sesión</button>
+        <div class="overlay1" id="overlay1">
+            <div class="popup1" id="popup1"> 
+            <a href="#" id="btn-cerrar-popup1" class="btn-cerrar-popup1"><i class="fas fa-times"></i></a>
+            <h3>iniciar Sesión</h3>
+                <form action="">
+                    <div class="contenedor-inputs1">
+                        <input type="email" placeholder="Correo">
+                        <input type="password" placeholder="Contraseña">
+                    </div>
+                    <input type="submit1" class="btn-submit1" value="Login"></input>
+               </form>
+            </div>
+        </div>
+    </div>
+    
         <div class="usuario">
             <a href="#"><img src="img/imagen usuario.png" width="50em"></a>
 
@@ -150,5 +165,6 @@
 <script src="../AS-GameNews/JS/app.js"></script>
 <script src="../AS-GameNews/JS/alert.js"></script>
 <script src="../AS-GameNews/Formulario de contacto/popup.js"></script>
+<script src="..//AS-GameNews/Formulario de contacto/poup.js"></script>
 </body>
 </html>
